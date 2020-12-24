@@ -11,20 +11,20 @@ const config = {
     '828': 1.81 / 2
   },
   sourceRoot: 'src',
-  outputRoot: 'dist',
-  babel: {
-    sourceMap: true,
-    presets: [
-      ['env', {
-        modules: false
-      }]
-    ],
-    plugins: [
-      'transform-decorators-legacy',
-      'transform-class-properties',
-      'transform-object-rest-spread'
-    ]
-  },
+  outputRoot: `dist`,
+  // babel: {
+  //   sourceMap: true,
+  //   presets: [
+  //     ['env', {
+  //       modules: false
+  //     }]
+  //   ],
+  //   plugins: [
+  //     'transform-decorators-legacy',
+  //     'transform-class-properties',
+  //     'transform-object-rest-spread'
+  //   ]
+  // },
   defineConstants: {
   },
   copy: {
@@ -33,6 +33,7 @@ const config = {
     options: {
     }
   },
+  framework: 'react',
   mini: {
     webpackChain () {},
     cssLoaderOption: {},

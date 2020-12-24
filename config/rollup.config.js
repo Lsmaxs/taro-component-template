@@ -60,7 +60,7 @@ export default {
       targets: [
         {
           src: resolveFile('src/style'),
-          dest: resolveFile('dist')
+          dest: resolveFile('lib')
         }
       ]
     })
